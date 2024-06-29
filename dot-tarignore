@@ -1,0 +1,17 @@
+# Build files
+node_modules
+dist
+build
+
+# Compressed Files
+*.7z
+*.exe
+*.gz
+*.jar
+*.tar
+*.tgz
+*.war
+*.zip
+
+# Archive with "Source" included as the root directory - run from parent of Source:
+# tar --exclude-from=~/.tarignore -czvf 1970-01-01_Source.tgz Source

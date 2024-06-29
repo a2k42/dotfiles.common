@@ -1,0 +1,23 @@
+# Folders
+**/node_modules/
+**/dist/
+**/build/
+**/mods/
+
+# Archives & Executables
+*.7z
+*.bz2
+*.bzip
+*.gz
+*.gzip
+*.exe
+*.jar
+*.iso
+*.tar
+*.tgz
+*.war
+*.zip
+
+# Media
+*.mpg
+*.mp4

@@ -1,0 +1,15 @@
+alias ll='ls -lFh'
+alias la='ls -lAh'
+alias tree='tree -I "node_modules" -I "*.git/" -I "debug/"'
+alias tmux='tmux start-server \; source-file ~/.session.tmux'
+
+alias py=python3
+alias ap=ansible-playbook
+alias lsbd='lsblk -o name,type,fstype,fsver,size,label,mountpoints'
+
+alias doc='docker compose'
+
+alias jp='julia --project=. --optimize=0'
+
+# alias du='du -achmst=1024M'
+# sudo du -chs -- * .[^.]* | sort -h | tail -n 10

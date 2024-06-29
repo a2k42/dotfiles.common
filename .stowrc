@@ -1,0 +1,4 @@
+--dotfiles
+--target=~
+--ignore .stowrc
+--ignore .gitignore

@@ -1,0 +1,49 @@
+[user]
+    name = "a2k42"
+    email = "1123245+a2k42@users.noreply.github.com"
+    signingkey = "a2k42"
+[core]
+    editor = vim
+	autocrlf = input
+[color]
+    ui = auto
+[commit]
+    gpgsign = true
+[tag]
+    gpgSign = true
+[submodule]
+    recurse = true
+[merge]
+    verifySignatures = false
+[rebase]
+	gpgSign = true
+[init]
+    defaultBranch = main
+[alias]
+    amend = commit --all --no-edit --amend
+    br = branch --all -v
+    bra = branch --all -v
+    cm = commit
+    cam = commit --all --message
+    com = commit
+    comm = commit --message
+    cr = switch --create
+    create = switch --create
+    ln = log -n3 --show-signature
+    log10 = log -n10 --abbrev-commit
+    logs = log --oneline --abbrev-commit
+    logg = log --oneline --decorate --graph
+    rem = remote --verbose
+    rmt = remote --verbose
+    squash = merge --squash
+    st = status
+    stat = status --short
+    sw = switch
+    swc = switch --create
+    tr = worktree
+    tree = worktree
+    wk = worktree
+    wktr = worktree
+    wt = worktree
+[github]
+    user = "a2k42"

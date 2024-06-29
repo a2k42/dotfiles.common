@@ -1,0 +1,26 @@
+# Ignore files when backing up
+**/node_modules/
+**/texlive/
+**/dist/
+**/build/
+**/target/
+
+# Archives
+*.7z
+*.bz2
+*.bzip
+*.gz
+*.gzip
+*.exe
+*.jar
+*.iso
+*.tar
+*.tgz
+*.war
+*.zip
+
+# Build Files
+*.class
+
+# Other
+**/.vagrant.d/
