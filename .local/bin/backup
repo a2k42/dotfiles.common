@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Remove trailing slashes so directory is created as well as contents
+
+SOURCE="${1%/}"
+TARGET="${2%/}"
+
+IGNORE="$HOME/.ignore"
+BACKUP="$TARGET.backup"
+
+if [ -z "$SOURCE" ] || [ -z "$TARGET" ]; then
+  echo "Usage: $0 <source> <TARGET>"
+  exit 1
+fi
+
+rsync -auvm --exclude-from="$IGNORE" --backup-dir "$BACKUP" --delete --stats "$SOURCE" "$TARGET"

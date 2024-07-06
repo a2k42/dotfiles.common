@@ -1,7 +1,12 @@
-alias ll='ls -lFh'
-alias la='ls -lAh'
+alias cp='cp -i'
+alias la='ls -lAhv --group-directories-first'
+alias ll='ls -lFh --group-directories-first'
+alias lstmp='df -ahT -t ramfs -t tmpfs'
+alias mv='mv -i'
+alias tarball='tar --exclude-from=~/.tarignore'
 alias tree='tree -I "node_modules" -I "*.git/" -I "debug/"'
 alias tmux='tmux start-server \; source-file ~/.session.tmux'
+alias usage='du -sh $(fdfind -Hd 1 --type d) | sort -hr'
 
 alias py=python3
 alias ap=ansible-playbook
